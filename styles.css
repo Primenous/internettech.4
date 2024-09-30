@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(32, 32, 32);
+    color:rgb(190, 190, 190);
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.spaced{
+    letter-spacing: 10px;
+}
+
+.line_light{
+    border: none;
+    height: 2px;
+    background-color: rgb(190, 190, 190);
+}
+
+.line_dark{
+    border: none;
+    height: 2px;
+    background-color: #222f35;
+}
+
+li{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+
+header{
+    width: 100%;
+    margin: 0%;
+    padding: 0%; 
+    display: flex   
+}
+
+.background_img{
+    width: 100%;
+}
+
+.nametag{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    text-align: center;
+    gap: 0px;
+    line-height: 0px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.name{
+    font-size: 100px;
+    color: rgb(255, 201, 223);
+}
+
+.occupation{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: lighter;
+}
+
+#profile{
+    width: 100%;
+}
+
+#content{
+    background-color: #eec6c6;
+    /* border: 1px solid white; */
+    height: 1500px;
+    display: flex;
+}
+
+#side{
+    background-color: #222f35;
+    width: 500px;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+#contacts{
+    /* border: 1px solid white;*/
+    margin: 50px;
+    height: 500px;
+}
+
+social{
+    /* margin: 10px; */
+    /* border: 1px solid white; */
+}
+
+item{
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+social item #icons{
+    height: 50px;
+}
+
+#informations{
+    width: 100%;
+    color:#222f35;
+    margin: 80px;
+    text-align: justify;
+}
+
+#info{
+    margin-bottom: 100px;   
+}
+
+.button1{
+    width: 100%;
+    border-radius: 20px;
+    background-color:   rgba(255, 255, 255, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(190, 190, 190);
+    border: none;
+    transition-duration: 100ms;
+}
+
+.button1:hover{
+    background-color:   rgba(255, 186, 207, 0.137);
+}
+
+.button1:active{
+    background-color:   rgba(255, 160, 192, 0.322);
+}
