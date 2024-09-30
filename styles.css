@@ -25,7 +25,7 @@ body{
 li{
     font-size: 20px;
     margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 h2{
@@ -80,7 +80,7 @@ header{
     background-color: #222f35;
     width: 500px;
     height: 100%;
-    /* border: 1px solid white; */
+    /* border: 1px solid white;*/
 }
 
 #contacts{
@@ -105,9 +105,14 @@ social item #icons{
 #informations{
     width: 100%;
     color:#222f35;
-    margin: 80px;
+    padding: 80px;
     text-align: justify;
+    border: 5px solid #f58d8d;
+    background: url('Ulzii.png');
 }
+
+
+
 
 #info{
     margin-bottom: 100px;   
@@ -129,4 +134,9 @@ social item #icons{
 
 .button1:active{
     background-color:   rgba(255, 160, 192, 0.322);
+}
+
+.text_with_icon{
+    display: flex;
+    align-items: center;
 }
